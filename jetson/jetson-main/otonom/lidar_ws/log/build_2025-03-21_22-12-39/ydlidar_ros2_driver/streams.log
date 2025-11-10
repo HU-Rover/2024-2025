@@ -1,0 +1,127 @@
+[0.061s] Invoking command in '/home/jetson/otonom/lidar_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/odometry:/home/jetson/ros2_ws/install/camera_realsense:/home/jetson/ros2_ws/install/camera:/opt/ros/foxy /usr/bin/cmake /home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver
+[0.895s] -- The C compiler identification is GNU 8.4.0
+[1.428s] -- The CXX compiler identification is GNU 8.4.0
+[1.456s] -- Check for working C compiler: /usr/bin/cc
+[1.698s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.702s] -- Detecting C compiler ABI info
+[1.935s] -- Detecting C compiler ABI info - done
+[1.984s] -- Detecting C compile features
+[1.986s] -- Detecting C compile features - done
+[1.997s] -- Check for working CXX compiler: /usr/bin/c++
+[2.259s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.262s] -- Detecting CXX compiler ABI info
+[2.530s] -- Detecting CXX compiler ABI info - done
+[2.578s] -- Detecting CXX compile features
+[2.580s] -- Detecting CXX compile features - done
+[2.616s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.754s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.755s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.953s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.286s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.351s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.827s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.954s] -- Found FastRTPS: /opt/ros/foxy/include  
+[5.401s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.706s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.714s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.719s] -- Looking for pthread.h
+[5.987s] -- Looking for pthread.h - found
+[5.988s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.235s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.236s] -- Looking for pthread_create in pthreads
+[6.438s] -- Looking for pthread_create in pthreads - not found
+[6.438s] -- Looking for pthread_create in pthread
+[6.677s] -- Looking for pthread_create in pthread - found
+[6.681s] -- Found Threads: TRUE  
+[7.484s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[8.064s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[8.416s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[8.520s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.919s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.930s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.931s] -- Configured cppcheck include dirs: /home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src
+[8.932s] -- Configured cppcheck exclude dirs and/or files: 
+[8.942s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.942s] -- Configured cpplint exclude dirs and/or files: 
+[8.946s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.950s] -- Added test 'lint_cmake' to check CMake code style
+[8.953s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[8.962s] -- Added test 'uncrustify' to check C / C++ code style
+[8.962s] -- Configured uncrustify additional arguments: 
+[8.965s] -- Added test 'xmllint' to check XML markup files
+[8.982s] -- Configuring done
+[9.040s] -- Generating done
+[9.073s] -- Build files have been written to: /home/jetson/otonom/lidar_ws/build/ydlidar_ros2_driver
+[9.107s] Invoked command in '/home/jetson/otonom/lidar_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/odometry:/home/jetson/ros2_ws/install/camera_realsense:/home/jetson/ros2_ws/install/camera:/opt/ros/foxy /usr/bin/cmake /home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver
+[9.117s] Invoking command in '/home/jetson/otonom/lidar_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/odometry:/home/jetson/ros2_ws/install/camera_realsense:/home/jetson/ros2_ws/install/camera:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/otonom/lidar_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[9.262s] [35m[1mScanning dependencies of target ydlidar_ros2_driver_node[0m
+[9.263s] [35m[1mScanning dependencies of target ydlidar_ros2_driver_client[0m
+[9.536s] [ 50%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o[0m
+[9.536s] [ 50%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_client.dir/src/ydlidar_ros2_driver_client.cpp.o[0m
+[14.198s] [01m[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[14.198s] [01m[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:168:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[14.199s]      [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[14.199s]               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[14.200s] [01m[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:169:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[14.200s]    [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[14.200s]    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[14.201s] [01m[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:170:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[14.201s]    [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[14.202s]    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[14.215s] [01m[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[14.216s] [01m[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:178:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[14.216s]      [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[14.216s]               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[14.217s] [01m[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:179:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[14.217s]    [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[14.218s]    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[14.218s] [01m[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:180:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[14.218s]    [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[14.219s]    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[21.914s] [ 75%] [32m[1mLinking CXX executable ydlidar_ros2_driver_node[0m
+[23.177s] [ 75%] Built target ydlidar_ros2_driver_node
+[25.864s] [100%] [32m[1mLinking CXX executable ydlidar_ros2_driver_client[0m
+[26.899s] [100%] Built target ydlidar_ros2_driver_client
+[26.939s] Invoked command in '/home/jetson/otonom/lidar_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/odometry:/home/jetson/ros2_ws/install/camera_realsense:/home/jetson/ros2_ws/install/camera:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/otonom/lidar_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[26.984s] Invoking command in '/home/jetson/otonom/lidar_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/odometry:/home/jetson/ros2_ws/install/camera_realsense:/home/jetson/ros2_ws/install/camera:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/otonom/lidar_ws/build/ydlidar_ros2_driver
+[27.012s] -- Install configuration: ""
+[27.013s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node
+[27.020s] -- Set runtime path of "/home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node" to ""
+[27.021s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client
+[27.029s] -- Set runtime path of "/home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client" to ""
+[27.030s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch
+[27.031s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py
+[27.032s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py
+[27.032s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py
+[27.033s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params
+[27.033s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml
+[27.034s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml
+[27.035s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml
+[27.035s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml
+[27.036s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml
+[27.037s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml
+[27.037s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml
+[27.038s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml
+[27.038s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml
+[27.039s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml
+[27.040s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml
+[27.040s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup
+[27.041s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh
+[27.041s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config
+[27.042s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz
+[27.043s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver
+[27.043s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver
+[27.044s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh
+[27.045s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv
+[27.045s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh
+[27.046s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv
+[27.046s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash
+[27.047s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh
+[27.048s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh
+[27.048s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv
+[27.049s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv
+[27.049s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver
+[27.050s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake
+[27.050s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake
+[27.051s] -- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml
+[27.058s] Invoked command in '/home/jetson/otonom/lidar_ws/build/ydlidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/odometry:/home/jetson/ros2_ws/install/camera_realsense:/home/jetson/ros2_ws/install/camera:/opt/ros/foxy /usr/bin/cmake --install /home/jetson/otonom/lidar_ws/build/ydlidar_ros2_driver

@@ -1,0 +1,32 @@
+[0.052s] Invoking command in '/home/jetson/otonom/lidar_ws/build/ydlidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/um7:/home/jetson/ros2_ws/install/odometry:/home/jetson/ros2_ws/install/launch_files:/home/jetson/ros2_ws/install/imu_data:/home/jetson/ros2_ws/install/cv:/home/jetson/ros2_ws/install/camera_realsense:/home/jetson/ros2_ws/install/camera:/home/jetson/ros2_ws/install/IMU_odom:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/otonom/lidar_ws/build/ydlidar_ros2_driver -- -j4 -l4
+[0.232s] [35m[1mScanning dependencies of target ydlidar_ros2_driver_node[0m
+[0.294s] [ 50%] Built target ydlidar_ros2_driver_client
+[0.359s] [ 75%] [32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o[0m
+[5.138s] [01m[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[5.139s] [01m[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:168:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.139s]      [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[5.140s]               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[5.140s] [01m[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:169:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.141s]    [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[5.141s]    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.141s] [01m[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:170:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.142s]    [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[5.142s]    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[5.156s] [01m[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In lambda function:
+[5.157s] [01m[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:178:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest_header[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.157s]      [&laser]([01;35m[Kconst std::shared_ptr<rmw_request_id_t> request_header[m[K,
+[5.158s]               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[5.158s] [01m[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:179:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kreq[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.158s]    [01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req[m[K,
+[5.159s]    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.159s] [01m[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:180:51:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[5.160s]    [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K) -> bool
+[5.161s]    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[5.171s] [01m[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.172s] [01m[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:201:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct sensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct sensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kscan[m[K’
+[5.172s]        scan_msg->[01;31m[Kscan[m[K.config.max_angle;
+[5.173s]                  [01;31m[K^~~~[m[K
+[8.734s] make[2]: *** [CMakeFiles/ydlidar_ros2_driver_node.dir/build.make:63: CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o] Error 1
+[8.735s] make[1]: *** [CMakeFiles/Makefile2:107: CMakeFiles/ydlidar_ros2_driver_node.dir/all] Error 2
+[8.736s] make: *** [Makefile:141: all] Error 2
+[8.746s] Invoked command in '/home/jetson/otonom/lidar_ws/build/ydlidar_ros2_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jetson/ros2_ws/install/um7:/home/jetson/ros2_ws/install/odometry:/home/jetson/ros2_ws/install/launch_files:/home/jetson/ros2_ws/install/imu_data:/home/jetson/ros2_ws/install/cv:/home/jetson/ros2_ws/install/camera_realsense:/home/jetson/ros2_ws/install/camera:/home/jetson/ros2_ws/install/IMU_odom:/opt/ros/foxy /usr/bin/cmake --build /home/jetson/otonom/lidar_ws/build/ydlidar_ros2_driver -- -j4 -l4

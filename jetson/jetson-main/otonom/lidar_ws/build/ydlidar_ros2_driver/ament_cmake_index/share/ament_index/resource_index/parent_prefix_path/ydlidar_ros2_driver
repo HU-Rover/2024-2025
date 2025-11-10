@@ -1,0 +1,1 @@
+/home/jetson/ros2_ws/install/rover_msgs:/home/jetson/ros2_ws/install/odometry:/home/jetson/ros2_ws/install/camera_realsense:/home/jetson/ros2_ws/install/camera:/home/jetson/microros_ws/install/micro_ros_setup:/home/jetson/microros_ws/install/micro_ros_agent:/home/jetson/microros_ws/install/micro_ros_msgs:/home/jetson/microros_ws/install/builtin_interfaces:/opt/ros/foxy

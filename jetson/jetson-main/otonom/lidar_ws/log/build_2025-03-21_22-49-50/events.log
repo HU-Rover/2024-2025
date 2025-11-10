@@ -1,0 +1,211 @@
+[0.000000] (-) TimerEvent: {}
+[0.001389] (ydlidar_ros2_driver) JobQueued: {'identifier': 'ydlidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.001642] (ydlidar_ros2_driver) JobStarted: {'identifier': 'ydlidar_ros2_driver'}
+[0.043854] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'cmake'}
+[0.046373] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'build'}
+[0.049589] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jetson/otonom/lidar_ws/build/ydlidar_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/jetson/otonom/lidar_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.88.1 42624 22'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/ros2_ws/install/rover_msgs/lib:/home/jetson/microros_ws/install/micro_ros_agent/lib:/home/jetson/microros_ws/install/micro_ros_msgs/lib:/home/jetson/microros_ws/install/builtin_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('SSH_TTY', '/dev/pts/0'), ('JETSON_L4T', '32.6.1'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Nano Developer Kit'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jetson/otonom/lidar_ws/install:/home/jetson/ros2_ws/install:/home/jetson/microros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Nano (4 GB ram)'), ('JETSON_SERIAL_NUMBER', '1421023031912'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Porg'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('AMENT_PREFIX_PATH', '/home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver:/home/jetson/ros2_ws/install/rover_msgs:/home/jetson/ros2_ws/install/odometry:/home/jetson/ros2_ws/install/camera_realsense:/home/jetson/ros2_ws/install/camera:/home/jetson/microros_ws/install/micro_ros_setup:/home/jetson/microros_ws/install/micro_ros_agent:/home/jetson/microros_ws/install/micro_ros_msgs:/home/jetson/microros_ws/install/builtin_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', 'p3448'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/otonom/lidar_ws/build/ydlidar_ros2_driver'), ('SSH_CONNECTION', '192.168.88.1 42624 192.168.88.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '4.5'), ('PYTHONPATH', '/home/jetson/ros2_ws/install/rover_msgs/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/odometry/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/camera_realsense/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/camera/lib/python3.8/site-packages:/home/jetson/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/jetson/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6'), ('CMAKE_PREFIX_PATH', '/home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver:/home/jetson/ros2_ws/install/rover_msgs:/home/jetson/microros_ws/install/micro_ros_setup:/home/jetson/microros_ws/install/micro_ros_agent:/home/jetson/microros_ws/install/micro_ros_msgs:/home/jetson/microros_ws/install/builtin_interfaces:/home/jetson/ros2_ws/install/odometry:/home/jetson/ros2_ws/install/camera_realsense:/home/jetson/ros2_ws/install/camera:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3448-0000')]), 'shell': False}
+[0.097308] (-) TimerEvent: {}
+[0.198128] (-) TimerEvent: {}
+[0.221874] (ydlidar_ros2_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target ydlidar_ros2_driver_node\x1b[0m\n'}
+[0.284283] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 50%] Built target ydlidar_ros2_driver_client\n'}
+[0.298327] (-) TimerEvent: {}
+[0.341548] (ydlidar_ros2_driver) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ydlidar_ros2_driver_node.dir/src/ydlidar_ros2_driver_node.cpp.o\x1b[0m\n'}
+[0.398487] (-) TimerEvent: {}
+[0.499090] (-) TimerEvent: {}
+[0.599826] (-) TimerEvent: {}
+[0.700471] (-) TimerEvent: {}
+[0.801073] (-) TimerEvent: {}
+[0.901789] (-) TimerEvent: {}
+[1.002466] (-) TimerEvent: {}
+[1.103147] (-) TimerEvent: {}
+[1.203882] (-) TimerEvent: {}
+[1.304510] (-) TimerEvent: {}
+[1.405610] (-) TimerEvent: {}
+[1.506279] (-) TimerEvent: {}
+[1.606949] (-) TimerEvent: {}
+[1.707702] (-) TimerEvent: {}
+[1.808334] (-) TimerEvent: {}
+[1.909003] (-) TimerEvent: {}
+[2.009614] (-) TimerEvent: {}
+[2.110209] (-) TimerEvent: {}
+[2.210841] (-) TimerEvent: {}
+[2.311677] (-) TimerEvent: {}
+[2.412326] (-) TimerEvent: {}
+[2.513011] (-) TimerEvent: {}
+[2.613733] (-) TimerEvent: {}
+[2.714422] (-) TimerEvent: {}
+[2.815085] (-) TimerEvent: {}
+[2.915792] (-) TimerEvent: {}
+[3.016473] (-) TimerEvent: {}
+[3.117221] (-) TimerEvent: {}
+[3.217890] (-) TimerEvent: {}
+[3.318565] (-) TimerEvent: {}
+[3.419346] (-) TimerEvent: {}
+[3.520067] (-) TimerEvent: {}
+[3.620765] (-) TimerEvent: {}
+[3.721421] (-) TimerEvent: {}
+[3.822090] (-) TimerEvent: {}
+[3.922754] (-) TimerEvent: {}
+[4.023548] (-) TimerEvent: {}
+[4.124202] (-) TimerEvent: {}
+[4.224923] (-) TimerEvent: {}
+[4.325584] (-) TimerEvent: {}
+[4.426241] (-) TimerEvent: {}
+[4.526928] (-) TimerEvent: {}
+[4.627639] (-) TimerEvent: {}
+[4.728382] (-) TimerEvent: {}
+[4.829189] (-) TimerEvent: {}
+[4.852706] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[4.853334] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:168:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.853749] (ydlidar_ros2_driver) StderrLine: {'line': b'     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[4.854108] (ydlidar_ros2_driver) StderrLine: {'line': b'              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.854462] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:169:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.854921] (ydlidar_ros2_driver) StderrLine: {'line': b'   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[4.855405] (ydlidar_ros2_driver) StderrLine: {'line': b'   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[4.855789] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:170:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.856136] (ydlidar_ros2_driver) StderrLine: {'line': b'   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[4.856520] (ydlidar_ros2_driver) StderrLine: {'line': b'   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[4.870028] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[4.870603] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:178:54:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest_header\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.870993] (ydlidar_ros2_driver) StderrLine: {'line': b'     [&laser](\x1b[01;35m\x1b[Kconst std::shared_ptr<rmw_request_id_t> request_header\x1b[m\x1b[K,\n'}
+[4.871491] (ydlidar_ros2_driver) StderrLine: {'line': b'              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.871946] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:179:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kreq\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.872357] (ydlidar_ros2_driver) StderrLine: {'line': b'   \x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> req\x1b[m\x1b[K,\n'}
+[4.872730] (ydlidar_ros2_driver) StderrLine: {'line': b'   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[4.873081] (ydlidar_ros2_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jetson/otonom/lidar_ws/src/ydlidar_ros2_driver/src/ydlidar_ros2_driver_node.cpp:180:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[4.873448] (ydlidar_ros2_driver) StderrLine: {'line': b'   \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K) -> bool\n'}
+[4.873800] (ydlidar_ros2_driver) StderrLine: {'line': b'   \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[4.929447] (-) TimerEvent: {}
+[5.030119] (-) TimerEvent: {}
+[5.130775] (-) TimerEvent: {}
+[5.231496] (-) TimerEvent: {}
+[5.332198] (-) TimerEvent: {}
+[5.432888] (-) TimerEvent: {}
+[5.533608] (-) TimerEvent: {}
+[5.634335] (-) TimerEvent: {}
+[5.734997] (-) TimerEvent: {}
+[5.835721] (-) TimerEvent: {}
+[5.936409] (-) TimerEvent: {}
+[6.037084] (-) TimerEvent: {}
+[6.137799] (-) TimerEvent: {}
+[6.238502] (-) TimerEvent: {}
+[6.339182] (-) TimerEvent: {}
+[6.440386] (-) TimerEvent: {}
+[6.541177] (-) TimerEvent: {}
+[6.641879] (-) TimerEvent: {}
+[6.742535] (-) TimerEvent: {}
+[6.843324] (-) TimerEvent: {}
+[6.944295] (-) TimerEvent: {}
+[7.045058] (-) TimerEvent: {}
+[7.145778] (-) TimerEvent: {}
+[7.246446] (-) TimerEvent: {}
+[7.347092] (-) TimerEvent: {}
+[7.447804] (-) TimerEvent: {}
+[7.548535] (-) TimerEvent: {}
+[7.649195] (-) TimerEvent: {}
+[7.749848] (-) TimerEvent: {}
+[7.850510] (-) TimerEvent: {}
+[7.951158] (-) TimerEvent: {}
+[8.051890] (-) TimerEvent: {}
+[8.152542] (-) TimerEvent: {}
+[8.253208] (-) TimerEvent: {}
+[8.353907] (-) TimerEvent: {}
+[8.454584] (-) TimerEvent: {}
+[8.555326] (-) TimerEvent: {}
+[8.655968] (-) TimerEvent: {}
+[8.756617] (-) TimerEvent: {}
+[8.857310] (-) TimerEvent: {}
+[8.958169] (-) TimerEvent: {}
+[9.058883] (-) TimerEvent: {}
+[9.159611] (-) TimerEvent: {}
+[9.260262] (-) TimerEvent: {}
+[9.360939] (-) TimerEvent: {}
+[9.461588] (-) TimerEvent: {}
+[9.562241] (-) TimerEvent: {}
+[9.662924] (-) TimerEvent: {}
+[9.763701] (-) TimerEvent: {}
+[9.864413] (-) TimerEvent: {}
+[9.965074] (-) TimerEvent: {}
+[10.065796] (-) TimerEvent: {}
+[10.166404] (-) TimerEvent: {}
+[10.267065] (-) TimerEvent: {}
+[10.368137] (-) TimerEvent: {}
+[10.468860] (-) TimerEvent: {}
+[10.569555] (-) TimerEvent: {}
+[10.670205] (-) TimerEvent: {}
+[10.770862] (-) TimerEvent: {}
+[10.871574] (-) TimerEvent: {}
+[10.972219] (-) TimerEvent: {}
+[11.072900] (-) TimerEvent: {}
+[11.173621] (-) TimerEvent: {}
+[11.274323] (-) TimerEvent: {}
+[11.374958] (-) TimerEvent: {}
+[11.475683] (-) TimerEvent: {}
+[11.576376] (-) TimerEvent: {}
+[11.677058] (-) TimerEvent: {}
+[11.777672] (-) TimerEvent: {}
+[11.878311] (-) TimerEvent: {}
+[11.979145] (-) TimerEvent: {}
+[12.079891] (-) TimerEvent: {}
+[12.180565] (-) TimerEvent: {}
+[12.281224] (-) TimerEvent: {}
+[12.322213] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ydlidar_ros2_driver_node\x1b[0m\n'}
+[12.381370] (-) TimerEvent: {}
+[12.482017] (-) TimerEvent: {}
+[12.582720] (-) TimerEvent: {}
+[12.683493] (-) TimerEvent: {}
+[12.784261] (-) TimerEvent: {}
+[12.884930] (-) TimerEvent: {}
+[12.985663] (-) TimerEvent: {}
+[13.086399] (-) TimerEvent: {}
+[13.187119] (-) TimerEvent: {}
+[13.287990] (-) TimerEvent: {}
+[13.387638] (ydlidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target ydlidar_ros2_driver_node\n'}
+[13.388205] (-) TimerEvent: {}
+[13.430862] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[13.433958] (ydlidar_ros2_driver) JobProgress: {'identifier': 'ydlidar_ros2_driver', 'progress': 'install'}
+[13.465341] (ydlidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jetson/otonom/lidar_ws/build/ydlidar_ros2_driver'], 'cwd': '/home/jetson/otonom/lidar_ws/build/ydlidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jetson'), ('SSH_CLIENT', '192.168.88.1 42624 22'), ('LC_TIME', 'nl_NL.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jetson/ros2_ws/install/rover_msgs/lib:/home/jetson/microros_ws/install/micro_ros_agent/lib:/home/jetson/microros_ws/install/micro_ros_msgs/lib:/home/jetson/microros_ws/install/builtin_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/jetson'), ('OLDPWD', '/home/jetson'), ('SSH_TTY', '/dev/pts/0'), ('JETSON_L4T', '32.6.1'), ('ROS_PYTHON_VERSION', '3'), ('JETSON_MODEL', 'NVIDIA Jetson Nano Developer Kit'), ('LC_MONETARY', 'nl_NL.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/jetson/otonom/lidar_ws/install:/home/jetson/ros2_ws/install:/home/jetson/microros_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'jetson'), ('JETSON_MODULE', 'NVIDIA Jetson Nano (4 GB ram)'), ('JETSON_SERIAL_NUMBER', '1421023031912'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('JETSON_CODENAME', 'Porg'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jetson/.local/bin:/opt/ros/foxy/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'nl_NL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'nl_NL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra210'), ('AMENT_PREFIX_PATH', '/home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver:/home/jetson/ros2_ws/install/rover_msgs:/home/jetson/ros2_ws/install/odometry:/home/jetson/ros2_ws/install/camera_realsense:/home/jetson/ros2_ws/install/camera:/home/jetson/microros_ws/install/micro_ros_setup:/home/jetson/microros_ws/install/micro_ros_agent:/home/jetson/microros_ws/install/micro_ros_msgs:/home/jetson/microros_ws/install/builtin_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nl_NL.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('JETSON_BOARDIDS', 'p3448'), ('LC_MEASUREMENT', 'nl_NL.UTF-8'), ('LC_IDENTIFICATION', 'nl_NL.UTF-8'), ('JETSON_CUDA_ARCH_BIN', '5.3'), ('PWD', '/home/jetson/otonom/lidar_ws/build/ydlidar_ros2_driver'), ('SSH_CONNECTION', '192.168.88.1 42624 192.168.88.4 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('MESA_GL_VERSION_OVERRIDE', '4.5'), ('PYTHONPATH', '/home/jetson/ros2_ws/install/rover_msgs/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/odometry/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/camera_realsense/lib/python3.8/site-packages:/home/jetson/ros2_ws/install/camera/lib/python3.8/site-packages:/home/jetson/microros_ws/install/micro_ros_msgs/lib/python3.8/site-packages:/home/jetson/microros_ws/install/builtin_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'nl_NL.UTF-8'), ('LC_PAPER', 'nl_NL.UTF-8'), ('COLCON', '1'), ('JETSON_JETPACK', '4.6'), ('CMAKE_PREFIX_PATH', '/home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver:/home/jetson/ros2_ws/install/rover_msgs:/home/jetson/microros_ws/install/micro_ros_setup:/home/jetson/microros_ws/install/micro_ros_agent:/home/jetson/microros_ws/install/micro_ros_msgs:/home/jetson/microros_ws/install/builtin_interfaces:/home/jetson/ros2_ws/install/odometry:/home/jetson/ros2_ws/install/camera_realsense:/home/jetson/ros2_ws/install/camera:/opt/ros/foxy'), ('JETSON_P_NUMBER', 'p3448-0000')]), 'shell': False}
+[13.488484] (-) TimerEvent: {}
+[13.503475] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.504482] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node\n'}
+[13.512696] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_node" to ""\n'}
+[13.513527] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/lib/ydlidar_ros2_driver/ydlidar_ros2_driver_client\n'}
+[13.514395] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch\n'}
+[13.515008] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar.py\n'}
+[13.515438] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch.py\n'}
+[13.515766] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/launch/ydlidar_launch_view.py\n'}
+[13.516085] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params\n'}
+[13.516403] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TEA.yaml\n'}
+[13.516729] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/GS2.yaml\n'}
+[13.517449] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TminiPro.yaml\n'}
+[13.518200] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4-Pro.yaml\n'}
+[13.518872] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/TG.yaml\n'}
+[13.519506] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G6.yaml\n'}
+[13.520280] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X2.yaml\n'}
+[13.521023] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/ydlidar.yaml\n'}
+[13.521473] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/X4.yaml\n'}
+[13.521874] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G2.yaml\n'}
+[13.522252] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/params/G1.yaml\n'}
+[13.522626] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup\n'}
+[13.523047] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/startup/initenv.sh\n'}
+[13.523507] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config\n'}
+[13.523883] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/config/ydlidar.rviz\n'}
+[13.524299] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/ydlidar_ros2_driver\n'}
+[13.524803] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/ydlidar_ros2_driver\n'}
+[13.525362] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.sh\n'}
+[13.525679] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[13.525982] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.sh\n'}
+[13.526284] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/environment/path.dsv\n'}
+[13.526585] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.bash\n'}
+[13.526890] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.sh\n'}
+[13.527189] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.zsh\n'}
+[13.528206] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/local_setup.dsv\n'}
+[13.530611] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Installing: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.dsv\n'}
+[13.531497] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ament_index/resource_index/packages/ydlidar_ros2_driver\n'}
+[13.532360] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig.cmake\n'}
+[13.533376] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/cmake/ydlidar_ros2_driverConfig-version.cmake\n'}
+[13.533953] (ydlidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/jetson/otonom/lidar_ws/install/ydlidar_ros2_driver/share/ydlidar_ros2_driver/package.xml\n'}
+[13.535389] (ydlidar_ros2_driver) CommandEnded: {'returncode': 0}
+[13.589053] (-) TimerEvent: {}
+[13.607328] (ydlidar_ros2_driver) JobEnded: {'identifier': 'ydlidar_ros2_driver', 'rc': 0}
+[13.610148] (-) EventReactorShutdown: {}
